@@ -1,7 +1,7 @@
-FROM node:7.3.0
+FROM node:4.8.0
 
 MAINTAINER Xavier Dutreilh <xavier@dutreilh.com>
 
 RUN apt-get update
-RUN apt-get install -y gettext
+RUN apt-get -y install gettext
 RUN rm -rf /var/lib/apt/lists/*
