@@ -1,4 +1,4 @@
-FROM node:6.11.0
+FROM node:8.1.4
 
 MAINTAINER Xavier Dutreilh <xavier@dutreilh.com>
 
